@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: auto;
+}
+
+header{
+    background-color: #1F2937;
+    display: flex;
+    height: 80px;
+    width: 100%;
+}
+
+header h3{
+    color: white;
+    font-size: 30px;
+    justify-content:flex-start;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end ;
+    padding: 20px;
+
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    flex-direction: row;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1F2937;
+
+}
+
+.container .caixa1{
+    background-color: #1F2937;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+}
+
+.container .caixa1 .texto{
+    background-color: #1F2937;
+    padding-left: 200px;
+    height: 400px;
+}
+
+.container .caixa1 .texto h2{
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.container .caixa1 .texto p{
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+}
+
+.container .caixa1 .texto button{
+    background-color: #07aaf5;
+    padding: 20px;
+    border-radius: 5px;
+    height: 12px;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-top: 6px;
+    padding-bottom: 28px;
+    cursor: pointer;
+
+}
+
+.container .caixa2{
+background-color: #1F2937;
+display: flex;
+width: 100%;
+height: 400px;
+align-items: center;
+padding-right: 95px;
+}
+
+.container .caixa2 .box-img{
+    width: 475px;
+    height: 325px;
+    margin-right: 140px;
+    margin-bottom: 80px;
+    background-color: #cbd0d6;
+
+}
+
+.container .caixa2 .box-img img{
+    width: 475px;
+    height: 325px;
+    margin-right: 140px;
+    margin-bottom: 80px;
+}
+
+.informacao{
+    background-color: white;
+    height: 400px;
+    width: 100%;
+}
+
+.informacao .letras{
+    display: flex;
+    margin: 50px;
+}
+
+.informacao .imagens{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-content: center;
+}
+
+.informacao .imagens .foto1{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    width: 180px;
+    height: 180px;
+}
+
+.informacao .imagens .foto1 img{
+    width: 180px;
+    height: 180px;
+    border: 5px solid blue;
+    border-radius: 10%;
+}
+
+.informacao .imagens .foto1 p{
+    color: #727678;
+    text-align: center;
+    font-size: 20px;
+}
+.informacao .imagens .foto2{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    width: 180px;
+    height: 180px;
+}
+
+.informacao .imagens .foto2 img{
+    width: 180px;
+    height: 180px;
+    border: 5px solid blue;
+    border-radius: 10%;
+}
+
+.informacao .imagens .foto2 p{
+    color: #727678;
+    text-align: center;
+    font-size: 20px;
+}
+
+.informacao .imagens .foto3{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    width: 180px;
+    height: 180px;
+}
+
+.informacao .imagens .foto3 img{
+    width: 180px;
+    height: 180px;
+    border: 5px solid blue;
+    border-radius: 10%;
+}
+
+.informacao .imagens .foto3 p{
+    color: #727678;
+    text-align: center;
+    font-size: 20px;
+}
+
+.informacao .imagens .foto4{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    width: 180px;
+    height: 180px;
+}
+
+.informacao .imagens .foto4 img{
+    width: 180px;
+    height: 180px;
+    border: 5px solid blue;
+    border-radius: 10%;
+}
+
+.informacao .imagens .foto4 p{
+    color: #727678;
+    text-align: center;
+    font-size: 20px;
+}
+
+.mensagem{
+    background-color: #e9eff2;
+    height: 240px;
+    padding: 30px;
+}
+
+.mensagem blockquote{
+    text-align: justify;
+    padding-left: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: light italic;
+}
+
+.mensagem p{
+    text-align: center;
+    padding-left: 400px;
+    padding-bottom: 15px;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: light italic ;
+    
+}
+
+.call-to-action{
+    background-color: white;
+    height: 60px;
+    padding: 120px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.call-to-action .box{
+    display: flex;
+    background-color: #07aaf5;
+    height: 140px;
+    width: 100%;
+    justify-content: center;
+    border-radius: 5px;
+    display: flex;
+}
+
+.call-to-action .box .box1{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.call-to-action .box .box1 h3{
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.call-to-action .box .box1 p{
+    color: white;
+    font-size: 15px;
+}
+
+.call-to-action .box{
+    display: flex;
+}
+
+.call-to-action .box .bot button{
+    background-color: #07aaf5 ;
+    color: white;
+    border: white 2px solid;
+    border-radius: 5px;
+    align-items: flex-end;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.footer{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column ;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer h5{
+    align-items: center;
+    color: white;
+    font-family: "roboto";
+}
